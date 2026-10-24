@@ -18,9 +18,9 @@ Open http://127.0.0.1:8000. Microphone dictation works in browsers that support 
 
 Push this folder to a GitHub repository and import it into Vercel. Vercel detects the FastAPI app in `main.py`; no build command, custom routing, or environment variables are required.
 
-Translation uses the MyMemory translation service through `/api/translate`. The text being translated is sent to that third-party service. Do not enter identifiable or sensitive health information unless your organization has reviewed and approved the services and privacy terms involved. Machine translations can be inaccurate; confirm important information with the patient. Conversation content remains in the open browser page and is not saved to a database.
+Translation uses the MyMemory translation service through `/api/translate`. The text being translated is sent to that third-party service. Do not enter identifiable or sensitive health information unless your organization has reviewed and approved the services and privacy terms involved. Machine translations can be inaccurate; confirm important information with the patient. Live conversation messages are temporary, while patient statements are added to the selected profile's history.
 
-Patient profiles (name, date of birth, age, address, and preferred language) are saved in the current browser's local storage so they remain available after refresh. They are not encrypted, synced, or stored on the server. Use test data only; remove profiles from the patient selector when finished.
+Patient profiles (name, date of birth, age, address, and preferred language), captured patient statements, and referral letters explicitly saved to a record are stored in the current browser's local storage so they remain available after refresh. They are not encrypted, synced, or stored on the server. Use test data only; removing a profile also removes its saved history.
 
 When a patient is selected, the app compares recognized name, date-of-birth, and address statements with the saved profile and flags mismatches. Speech recognition can mishear details, and this is not an identity-verification method; confirm identity through your organization's approved process.
 

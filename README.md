@@ -22,6 +22,8 @@ Translation uses the MyMemory translation service through `/api/translate`. The 
 
 Patient profiles (name, date of birth, age, address, and preferred language) are saved in the current browser's local storage so they remain available after refresh. They are not encrypted, synced, or stored on the server. Use test data only; remove profiles from the patient selector when finished.
 
+When a patient is selected, the app compares recognized name, date-of-birth, and address statements with the saved profile and flags mismatches. Speech recognition can mishear details, and this is not an identity-verification method; confirm identity through your organization's approved process.
+
 ## Privacy and intended use
 
 CareTalk is a prototype communication aid, not a medical record or a certified clinical translation service. It has no accounts, encryption layer, audit log, or compliance certification. Review your organization's security, privacy, and accessibility requirements before using it with patient information.

@@ -20,7 +20,7 @@ Push this folder to a GitHub repository and import it into Vercel. Vercel detect
 
 Translation uses the MyMemory translation service through `/api/translate`. The text being translated is sent to that third-party service. Do not enter identifiable or sensitive health information unless your organization has reviewed and approved the services and privacy terms involved. Machine translations can be inaccurate; confirm important information with the patient. Conversation content remains in the open browser page and is not saved to a database.
 
-Patient profiles (name, age, address, and preferred language) are saved in the current browser's local storage so they remain available after refresh. They are not encrypted, synced, or stored on the server. Use test data only; remove profiles from the patient selector when finished.
+Patient profiles (name, date of birth, age, address, and preferred language) are saved in the current browser's local storage so they remain available after refresh. They are not encrypted, synced, or stored on the server. Use test data only; remove profiles from the patient selector when finished.
 
 ## Privacy and intended use
 

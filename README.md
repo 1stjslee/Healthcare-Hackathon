@@ -1,4 +1,4 @@
-# CareTalk
+# Healthcare Hackathon — CareTalk
 
 A small, two-way clinician and patient conversation board. Each side can type or use browser speech recognition; messages appear in both windows. Optional machine translation can be enabled separately for each direction.
 

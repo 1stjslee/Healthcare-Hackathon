@@ -1,4 +1,4 @@
-# Healthcare Hackathon — CareTalk
+# Healthcare Hackathon — Nova
 
 A small, two-way clinician and patient conversation board. Each side can type or use browser speech recognition; messages appear in both windows. Optional machine translation can be enabled separately for each direction.
 
@@ -26,4 +26,4 @@ When a patient is selected, the app compares recognized name, date-of-birth, and
 
 ## Privacy and intended use
 
-CareTalk is a prototype communication aid, not a medical record or a certified clinical translation service. It has no accounts, encryption layer, audit log, or compliance certification. Review your organization's security, privacy, and accessibility requirements before using it with patient information.
+Nova is a prototype communication aid, not a medical record or a certified clinical translation service. It has no accounts, encryption layer, audit log, or compliance certification. Review your organization's security, privacy, and accessibility requirements before using it with patient information.
